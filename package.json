@@ -1,16 +1,17 @@
 {
-  "name": "warband",
+  "name": "playcanvas-typescript-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "author": "Hugh Hoang <hugh.hoang@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "playcanvas": "^1.26.1"
+    "playcanvas": "^1.26.1",
+    "typescript": "^3.8.3"
   },
   "scripts": {
-    "serve": "parcel watch ./src/index.js -o bundle.js",
-    "build": "parcel build ./src/index.js -o bundle.js"
+    "serve": "parcel watch ./src/index.ts -o bundle.js",
+    "build": "parcel build ./src/index.ts -o bundle.js"
   }
 }
