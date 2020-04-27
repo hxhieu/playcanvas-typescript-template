@@ -1,17 +1,35 @@
 {
   "name": "playcanvas-typescript-template",
+  "description": "Minimal setup to set up a local PlayCanvas development using TypeScript",
   "version": "1.0.0",
-  "main": "dist/bundle.js",
   "author": "Hugh Hoang <hugh.hoang@gmail.com>",
-  "license": "MIT",
-  "private": true,
+  "bugs": {
+    "url": "https://github.com/hxhieu/playcanvas-typescript-template/issues"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-playcanvas": "^1.0.0",
     "playcanvas": "^1.26.1",
     "typescript": "^3.8.3"
   },
+  "homepage": "https://github.com/hxhieu/playcanvas-typescript-template",
+  "keywords": [
+    "local",
+    "local-dev",
+    "parcel",
+    "playcanvas",
+    "typescript",
+    "webgl"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "name": "parcel-plugin-playcanvas",
+    "url": "https://github.com/hxhieu/playcanvas-typescript-template"
+  },
   "scripts": {
-    "serve": "parcel watch ./src/index.ts -o bundle.js",
-    "build": "parcel build ./src/index.ts -o bundle.js"
+    "build": "parcel build ./src/index.ts -o bundle.js",
+    "serve": "parcel watch ./src/index.ts -o bundle.js"
   }
 }
